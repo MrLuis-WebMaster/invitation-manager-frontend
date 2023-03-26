@@ -1,63 +1,64 @@
 {
-	"name": "next",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint",
-		"lint:fix": "next lint --fix",
-		"format": "prettier --write .",
-		"prepare": "husky install",
-		"pre-commit": "next lint && npx lint-staged"
-	},
-	"dependencies": {
-		"@emotion/cache": "11.10.5",
-		"@emotion/react": "11.10.6",
-		"@emotion/server": "11.10.0",
-		"@emotion/styled": "11.10.6",
-		"@heroicons/react": "2.0.16",
-		"@mui/lab": "5.0.0-alpha.120",
-		"@mui/material": "5.11.10",
-		"@mui/system": "5.11.9",
-		"@mui/x-date-pickers": "5.0.19",
-		"apexcharts": "3.37.0",
-		"date-fns": "2.29.3",
-		"formik": "2.2.9",
-		"next": "13.2.4",
-		"nprogress": "0.2.0",
-		"prop-types": "15.8.1",
-		"react": "18.2.0",
-		"react-apexcharts": "1.4.0",
-		"react-dom": "18.2.0",
-		"simplebar-react": "^3.2.1",
-		"yup": "1.0.0"
-	},
-	"devDependencies": {
-		"@commitlint/config-conventional": "^17.4.4",
-		"@types/node": "18.13.0",
-		"@types/nprogress": "0.2.0",
-		"@types/numeral": "2.0.2",
-		"@types/react": "^18.0.27",
-		"@types/react-dom": "^18.0.10",
-		"@vitejs/plugin-react-swc": "^3.0.0",
-		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^8.36.0",
-		"eslint-config-next": "^13.2.4",
-		"eslint-config-prettier": "^8.8.0",
-		"eslint-config-standard": "^17.0.0",
-		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-n": "^15.6.1",
-		"eslint-plugin-promise": "^6.1.1",
-		"eslint-plugin-react": "^7.32.2",
-		"husky": "^8.0.3",
-		"lint-staged": "^13.2.0",
-		"prettier": "^2.8.4"
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	}
+    "name": "next",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "lint:fix": "next lint --fix",
+        "format": "prettier --write .",
+        "prepare": "husky install",
+        "pre-commit": "next lint && npx lint-staged"
+    },
+    "dependencies": {
+        "@emotion/cache": "11.10.5",
+        "@emotion/react": "11.10.6",
+        "@emotion/server": "11.10.0",
+        "@emotion/styled": "11.10.6",
+        "@heroicons/react": "2.0.16",
+        "@mui/lab": "5.0.0-alpha.120",
+        "@mui/material": "5.11.10",
+        "@mui/system": "5.11.9",
+        "@mui/x-date-pickers": "5.0.19",
+        "apexcharts": "3.37.0",
+        "date-fns": "2.29.3",
+        "formik": "2.2.9",
+        "next": "13.2.4",
+        "nprogress": "0.2.0",
+        "prop-types": "15.8.1",
+        "react": "18.2.0",
+        "react-apexcharts": "1.4.0",
+        "react-dom": "18.2.0",
+        "simplebar-react": "^3.2.1",
+        "yup": "1.0.0"
+    },
+    "devDependencies": {
+        "@commitlint/config-conventional": "^17.4.4",
+        "@types/node": "18.13.0",
+        "@types/nprogress": "0.2.0",
+        "@types/numeral": "2.0.2",
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react-swc": "^3.0.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint": "^8.36.0",
+        "eslint-config-next": "^13.2.4",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.6.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.32.2",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.0",
+        "prettier": "^2.8.4"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
 }

@@ -1,12 +1,19 @@
 {
-	"extends": [
-		"eslint:recommended",
-		"next/core-web-vitals",
-		"prettier",
-		"plugin:@next/next/recommended",
-		"next"
-	],
-	"rules": {
-		"react/no-unescaped-entities": "off"
-	}
+    "extends": [
+        "eslint:recommended",
+        "plugin:@next/next/recommended",
+        "next/core-web-vitals",
+        "standard",
+        "next",
+        "eslint-config-prettier",
+        "prettier"
+    ],
+    "plugins": ["prettier"],
+    "rules": {
+        "react/no-unescaped-entities": "off",
+        "semi": ["error", "always"],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "prettier/prettier": "error"
+    }
 }
