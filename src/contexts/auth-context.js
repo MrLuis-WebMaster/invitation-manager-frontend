@@ -5,7 +5,7 @@ import {
 	useReducer,
 	useRef,
 } from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 const HANDLERS = {
 	INITIALIZE: 'INITIALIZE',
@@ -15,9 +15,9 @@ const HANDLERS = {
 
 const initialState = {
 	isAuthenticated: false,
-	isLoading: true,
+	isLoading: true,  
 	user: null,
-};
+};                  
 
 const handlers = {
 	[HANDLERS.INITIALIZE]: (state, action) => {
