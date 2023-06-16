@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4e31aa;
+    border-radius: 10px;
+    border: 2px solid #ffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4338ca;
+}
+
+.text-truncate {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

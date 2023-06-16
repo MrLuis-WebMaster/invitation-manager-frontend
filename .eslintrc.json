@@ -11,9 +11,11 @@
     "plugins": ["prettier"],
     "rules": {
         "react/no-unescaped-entities": "off",
+        "react-hooks/exhaustive-deps": "off",
         "semi": ["error", "always"],
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error",
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "quotes": ["error", "single"]
     }
 }
